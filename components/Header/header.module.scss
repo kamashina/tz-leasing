@@ -1,6 +1,6 @@
 .header {
 width: 100%;
-padding: 20px 48px;
+padding: 20px 0px;
 }
 .header_content{
     display: flex;
@@ -12,6 +12,6 @@ height: min-content;
 .header_menu{
     display: flex;
     flex-direction: row;
-    gap: 10px; 
+    gap: 24px; 
     align-items: center;
 }

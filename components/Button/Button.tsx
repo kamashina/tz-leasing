@@ -37,7 +37,7 @@ const Button: FC<Props> = ({
       style={style}
       disabled={isLoading}
     >
-      <span style={textStyle}>{text}</span>
+      {text}
     </button>
   ) : (
     <Link href={href ? href : "/"} style={style}>

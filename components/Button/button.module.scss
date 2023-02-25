@@ -3,24 +3,46 @@
 .main_button {
 border-radius: 40px;
 border: 0;
+width: max-content;
 display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
 padding: 12px 24px;
-gap: 10px;
-background-color: #FF9514;
+background-color: $orange;
+font-size: 16px;
+cursor: pointer;
+color: $white;
+&:hover{
+    color: $white;
+    background-color: $black;
+}
+&:active{
+    color: $white;
+    background-color: $gray;
+}
 }
 .border_button {
-    border: 1px solid #FF9514;
-    background-color: white;
+    border: 1px solid $orange;
+    background-color: $white;
     border-radius: 40px;
+    font-size: 16px;
 display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
 padding: 12px 24px;
 gap: 10px;
+cursor: pointer;
+color: $orange;
+&:hover{
+    background-color: $orange;
+    color: $white;
+}
+&:active{
+    background-color: $lightOrange;
+    border: 1px solid $lightOrange;
+}
 }
 
 .button__load {
