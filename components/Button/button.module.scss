@@ -1,0 +1,28 @@
+@import '../../app/colors.scss';
+
+.main_button {
+border-radius: 40px;
+border: 0;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 12px 24px;
+gap: 10px;
+background-color: #FF9514;
+}
+.border_button {
+    border: 1px solid #FF9514;
+    background-color: white;
+    border-radius: 40px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 12px 24px;
+gap: 10px;
+}
+
+.button__load {
+    cursor: loading;
+}
