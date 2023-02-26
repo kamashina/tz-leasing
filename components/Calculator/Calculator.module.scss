@@ -1,0 +1,12 @@
+.calculator__wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.calculator__place{
+    display: flex;
+          justify-content: space-between;
+          flex-direction: row;
+          margin-bottom: 44px;
+}
